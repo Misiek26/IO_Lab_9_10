@@ -9,7 +9,7 @@ public class MainTest {
     @Test
     public void secondTest(){
         int c = a+b;
-        if(c!=10){
+        if(c==10){
             System.out.println(c);
         }
     }
