@@ -23,6 +23,6 @@ public class Main {
     }
 
     static void used() {
-        System.out.println("Powinno byc dobrze!");
+        System.out.println("Jest ok!");
     }
 }
