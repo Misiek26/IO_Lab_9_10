@@ -12,5 +12,7 @@ public class Main {
         }
 
         Logger logger = LoggerFactory.getLogger(Main.class);
+
+        System.out.println("Dodano SonarQube!!");
     }
 }
