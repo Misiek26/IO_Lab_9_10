@@ -41,7 +41,11 @@ jobs:
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-            SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+            SONAR_HOST_URL: https://sonarcloud.io
+
+          with:
+            args:
+              -Dsonar.projectKey=Misiek26_IO_Lab_9_10
   
   
     - name: Update dependency graph
