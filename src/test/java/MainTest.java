@@ -18,7 +18,7 @@ public class MainTest {
     }
 
     @Test
-    public void mainTest(){
+    public void thirdTest() {
         Main.main(new String[]{});
     }
 }
