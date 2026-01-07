@@ -1,3 +1,4 @@
+import org.example.Main;
 import org.junit.Test;
 
 public class MainTest {
@@ -15,5 +16,9 @@ public class MainTest {
         }
 
     }
-    
+
+    @Test
+    public void mainTest(){
+        Main.main(new String[]{});
+    }
 }
