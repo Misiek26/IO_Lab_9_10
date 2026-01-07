@@ -6,13 +6,7 @@ on:
   pull_request:
     branches: [ "master" ]
 
-permissions:
-  pull-requests: read
-
 jobs:
-  Analysis:
-    runs-on: ubuntu-latest
-    
   build:
     runs-on: ubuntu-latest
 
