@@ -47,4 +47,4 @@ jobs:
         with:
           args: 
             -Dsonar.projectKey=Misiek26_IO_Lab_9_10
-            -Dsonar.organization=misiek26
+            -Dsonar.organization=Misiek26
