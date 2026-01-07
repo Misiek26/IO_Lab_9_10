@@ -20,4 +20,14 @@ public class Main {
 
         logger.info("Dodano SonarQube!!");
     }
+
+    static void unused() {
+        System.out.println("boom");
+        System.out.println("Powinno wyrzucic blad!");
+        int x = 1 / 0;
+
+        if (true) {
+            System.out.println("always true");
+        }
+    }
 }
