@@ -23,7 +23,8 @@ jobs:
       
     - name: Analyze with SonarQube
           
-      run: mvn -B org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
+      run: | 
+          mvn -B org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
            -Dsonar.projectKey=Misiek26_IO_Lab_9_10 \
            -Dsonar.organization=Misiek26 \
            -Dsonar.host.url=https://sonarcloud.io \
