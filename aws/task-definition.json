@@ -1,0 +1,32 @@
+{
+  "name": "Lab_11-12",
+  "image": "925445553923.dkr.ecr.eu-north-1.amazonaws.com/lab_io/11-12",
+  "cpu": 0,
+  "portMappings": [
+    {
+      "name": "lab_11-12-80-tcp",
+      "containerPort": 80,
+      "hostPort": 80,
+      "protocol": "tcp",
+      "appProtocol": "http"
+    }
+  ],
+  "essential": true,
+  "environment": [],
+  "environmentFiles": [],
+  "mountPoints": [],
+  "volumesFrom": [],
+  "ulimits": [],
+  "logConfiguration": {
+    "logDriver": "awslogs",
+    "options": {
+      "awslogs-group": "/ecs/Lab_IOPOW",
+      "awslogs-create-group": "true",
+      "awslogs-region": "eu-north-1",
+      "awslogs-stream-prefix": "ecs"
+    },
+    "secretOptions": []
+  },
+  "systemControls": []
+}
+925445553923.dkr.ecr.eu-north-1.amazonaws.com
